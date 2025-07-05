@@ -1,5 +1,6 @@
 import pandas as pd
-import os
+import os, sys
+
 
 # This script is used to perform initial cleaning of training datasets
 RAW_DATA_DIR = "../data/raw/"
@@ -71,8 +72,6 @@ def clean_SubjectivePoverty(output_filename="train_SubjectivePoverty_clean.csv")
 
 def merge_clean_datasets():
     pass
-
-
 
 
 if __name__ == '__main__':
